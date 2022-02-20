@@ -4,4 +4,4 @@ function showMessage(mesasge: any) {
   return mesasge;
 }
 
-console.log(showMessage('ola mundo'));
+console.log(showMessage('ola'));
