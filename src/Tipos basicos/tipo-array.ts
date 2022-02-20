@@ -13,7 +13,7 @@ function concatenaStrings(...args: string[]): string {
   return args.reduce((ac, valor) => ac + valor);
 }
 
-const res2 = concatenaStrings('a', 'b', 'c');
+const res2 = concatenaStrings('a', 'b', 'd');
 console.log(res2);
 
 // ----------------------------------------------------------------------------
