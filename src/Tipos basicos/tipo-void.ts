@@ -9,7 +9,7 @@ function semRetorno(...args: string[]): void {
   console.log(args.join(' '));
 }
 
-semRetorno('claudio', 'vitor');
+semRetorno('cláudio', 'vitor');
 
 const pessoa = {
   nome: 'claudio',
