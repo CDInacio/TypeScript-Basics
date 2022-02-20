@@ -38,10 +38,10 @@ interface CatInfo {
   breed: string;
 }
 
-type CatName = 'miffy' | 'boris' | 'mordred';
+type CatName = 'catty' | 'boris' | 'mordred';
 
 const cats: Record<CatName, CatInfo> = {
-  miffy: { age: 12, breed: 'persian' },
+  catty: { age: 12, breed: 'persian' },
   boris: { age: 1, breed: 'maine coon' },
   mordred: { age: 2, breed: 'unknown' },
 };
